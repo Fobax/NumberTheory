@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mathe.taylor.numbertheory.PrimeCheck">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/prmchk_text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="65dp"
+        android:text="Prime Checker"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/prmchk_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/prmchk_text_1"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="45dp"
+        android:text="Enter Number:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/checkNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prmchk_text_2"
+        android:layout_alignStart="@+id/prmchk_text_2"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="120dp"
+        android:ems="2"
+        android:inputType="number" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prmchk_text_2"
+        android:layout_alignStart="@+id/prmchk_text_2"
+        android:layout_below="@+id/prmchk_text_2"
+        android:layout_marginTop="50dp"
+        android:text="Check" />
+    <requestFocus />
+
+    <!--<TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/prmchk_text_1"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="300dp"
+        android:layout_marginLeft="125dp"
+        android:text="Result:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />-->
+    <TextView
+        android:id="@+id/DispResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>
