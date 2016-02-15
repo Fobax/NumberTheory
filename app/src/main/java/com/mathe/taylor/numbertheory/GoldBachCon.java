@@ -65,6 +65,7 @@ public class GoldBachCon extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_gold_bach_con, container, false);
+
     }
 
     // TODO: Rename method, update argument and hook method into UI event
